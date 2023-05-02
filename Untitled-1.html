@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ma page en fond noir</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+      }
+      h1 {
+        text-align: center;
+        font-size: 3em;
+        margin-top: 50px;
+      }
+      .container {
+        position: relative;
+        margin: 0 auto;
+        max-width: 800px;
+        padding: 0 20px;
+      }
+      .prenom {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 1.2em;
+      }
+      .ligne {
+        margin: 50px 0;
+        font-size: 1.5em;
+        text-align: center;
+        line-height: 1.5;
+      }
+      .ligne:nth-child(odd) {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="prenom">BOUCHERET Paul</div>
+      <h1>Contact page</h1>
+      <div class="ligne"> Linkedin : https://www.linkedin.com/in/paul-boucheret-17181a257</div>
+      <div class="ligne"> Github : https://github.com/paul7436</div>
+      <div class="ligne"> students in software engineering </div>
+    </div>
+  </body>
+</html>
